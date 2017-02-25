@@ -1,0 +1,9 @@
+{
+	"name": "thompson_sampling",
+	"authors": [
+		"Eric Scrivner"
+	],
+	"description": "Prototype use of Thompson Sampling for candidate evaluation.",
+	"copyright": "Copyright © 2017, Eric Scrivner",
+	"license": "MIT"
+}
