@@ -1,4 +1,6 @@
 digraph candidates {
+        C0 [style=filled, fillcolor=red]
+        C3 [style=filled, fillcolor=green]
 	C0 -> C1 [label="0.023810"]
 	C0 -> C2 [label="0.222222"]
 	C0 -> C3 [label="0.003968"]
