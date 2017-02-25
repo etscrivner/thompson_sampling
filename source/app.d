@@ -81,6 +81,15 @@ void printAdjacencyList(ref CandidateResult candidate,
   }
 }
 
+/**
+ * Returns Graphviz dot format string containing a graph of the complete
+ * comparisons between all candidates.
+ *
+ * Params:
+ *     allCandidates = All of the interview candidates.
+ *
+ * Returns: String containing graphviz results.
+ */
 string dotAdjacencyList(ref CandidateResult[] allCandidates) {
   string result = "digraph candidates {\n";
   foreach (candidate; allCandidates) {
